@@ -7,11 +7,11 @@ void myMsDelay (unsigned int time)
 {
 unsigned int i, j;
 for (i = 0; i < time; i++)
-for (j = 0; j < 275; j++);/*Calibrated for a 1 ms delay in MPLAB*/
+for (j = 0; j < 275; j++);
 }
 void main()
 {
-TRISCbits.TRISC2 = 0 ; // Set PORTC, 2 as output
+TRISCbits.TRISC2 = 0 ;
  TRISCbits.TRISC6 = 0 ;
 TRISCbits.TRISC7 = 0 ;
 PR2 = 0x7F;
