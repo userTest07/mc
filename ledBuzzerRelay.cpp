@@ -3,8 +3,8 @@
 #pragma config WDT = OFF
 #pragma config LVP = OFF
 #pragma config PBADEN = OFF
-#define lrbit PORTBbits.RB4 //SW0 interfaced to RB4
-#define rlbit PORTBbits.RB5 //SW1
+#define lrbit PORTBbits.RB4 
+#define rlbit PORTBbits.RB5 
 #define buzzer PORTCbits.RC2
 #define relay PORTCbits.RC1
 void MsDelay (unsigned int time)
